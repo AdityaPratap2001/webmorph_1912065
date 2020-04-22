@@ -1,0 +1,303 @@
+/*NAVBAR*/
+
+@media (min-width: 992px) { 
+
+	.fluxnav{
+		justify-content: flex-end;
+	}
+	.fluxbrand{
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 992px) {
+	.fluxnav{
+		text-align: center;
+	}
+	.navsearch{
+		justify-content: center;
+	}
+}
+.navbar{
+	background-color: #152535;
+}
+.navbar a{
+	text-decoration: none;
+	color: white;
+}
+.navbar a:hover{
+	color:blue;
+}
+.navbar-nav > li > .dropdown-menu a{
+	color: white;  
+}
+.navbar-nav > li > .dropdown-menu a:hover{
+	color: blue;
+	background-color: #152535;
+}
+.navbar-nav > li > .dropdown-menu {
+	background-color: #152535;  
+}
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+
+
+/*1st TITLE BLOCK*/
+
+.block1{
+	padding-top: 110px;
+	padding-bottom: 50px;
+}
+.montext{
+	color: white;
+	font-family: 'Arimo', sans-serif;
+	text-decoration: bold;
+	font-size:37px;
+	margin-left: 15px;
+	display: inline;
+}
+.monvideo{
+	width=900px;
+	height=420px; 
+}
+
+.montext2{
+	color: white;
+	font-size: 20px;
+}
+.monimage{
+	height: 500px;
+	margin-top: 30px;
+}
+.monshift{
+	width: 100%;
+}
+
+video{
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+@media (max-width: 1200px) {
+	.monimage{
+		margin-top:37px;
+		height: 410px;
+		width: auto;
+		margin-top: 72px;
+	}
+}
+
+@media (max-width: 992px) {
+	.monvideo{
+		display:none;
+		height: 0vh;
+		height: 0vh;
+		width: 0px;
+		z-index: 0;
+		margin: 0px;
+	}
+	.monimage{
+		height:400px;
+		margin-top: 20px;
+		padding-left: 220px;
+		margin-bottom: 0px;
+	}
+	.playicon{
+		margin-left: 66px;
+	}
+}
+
+
+
+/*2nd MOVIE CARDS*/
+
+.hiddenmovies{
+	display: none;
+}
+
+@media (max-width: 992px) {
+	.hideme{
+		display: none;
+	}
+	.showme{
+		display: block;
+	}
+}
+
+.imagesetting{
+	border-radius: 8px;
+	margin-top: 14px;
+}
+
+.firstrow img:hover{
+	margin-top: 50px;
+}
+.yjhd:hover>.collapse{
+		display: block;
+}
+.strthings:hover>.collapse{
+		display: block;
+}
+.friends:hover>.collapse{
+		display: block;
+}
+.joker:hover>.collapse{
+		display: block;
+}
+.birdbox:hover>.collapse{
+		display: block;
+}
+.ozark:hover>.collapse{
+		display: block;
+}
+.kabir:hover>.collapse{
+		display: block;
+}
+.kapoorsons:hover>.collapse{
+		display: block;
+}
+.wakeupsid:hover>.collapse{
+		display: block;
+}
+.zindagi:hover>.collapse{
+		display: block;
+}
+.soty:hover>.collapse{
+		display: block;
+}
+.idiots:hover>.collapse{
+	    display:block;
+}
+
+/*LANGUAGE CARDS*/
+
+.firstrow img:hover{
+	margin-top: 50px;
+}
+.secondrow img:hover{
+	margin-top: 50px;
+}
+.hiddenlang{
+	display: none;
+}
+
+@media (max-width: 992px) {
+	.hideme{
+		display: none;
+	}
+	.showme{
+		display: block;
+	}
+}
+
+/*NOW U SEE ME CARD*/
+
+.nowu{
+	height:400px;
+	width:100%;
+	margin-top:13px;
+	margin-bottom:13px;
+	border-radius:8px;
+}
+.playicon2{
+	margin-left: 10px;
+	color: white;
+	margin-top:30px;
+}
+.expandnow{
+	border-left:gold 2px solid;
+	margin:13px 0px 13px 0px;
+}
+.textnow{
+	display:inline-block;
+	margin-left:18px;
+}
+@media (max-width:1200px) and (min-width:993px){
+	.playicon2{
+		margin-left:120px;
+		margin-bottom: 20px;
+	}
+	.twentytwenty{
+		margin-left:110px;
+	}
+	.nowu{
+		margin-top: 37px;
+	}
+}
+
+@media (max-width: 992px) {
+	.expandnow{
+		margin: auto;
+		margin-top: 0px;
+		text-align: center;
+	}
+	.textnow{
+		margin-left: 18px;
+	}
+}
+@media (min-width: 1200px) {
+	.twentytwenty{
+		margin-left:90px;
+	}
+}
+
+/*NOW YOU SEE ME CARD ENDS HERE */
+
+
+/*SHOW MORE LINE*/
+
+.showmore{
+	color: darkgrey;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	background-color: #152535;
+}
+
+/*SHOW MORE LINE ENDS HERE*/
+
+
+/*FOOTER*/
+
+.footer{
+	padding-bottom: 20px;
+	background-color: #152535;
+	color: darkgrey;
+	padding-top: 25px;
+}
+.icons{
+	justify-content: center;
+	margin-bottom: 15px;
+}
+.about{
+	text-align: center;
+	margin-bottom:9px;
+}
+.about2{
+	text-align: center;
+	margin-bottom: 16px;
+}
+.endlogo{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.copyright{
+	justify-content: center;
+	font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

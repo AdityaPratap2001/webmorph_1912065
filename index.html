@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flux</title>
+    <!--	my stylesheet-->
+	<link rel="stylesheet" href="style.css">
+	<!--	bootstrap CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--    google fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+	<!--font awesome CDN-->
+    <script src="https://kit.fontawesome.com/79361d7429.js" crossorigin="anonymous"></script>
+  </head>
+	
+  <body style="background-color: #203345;">
+
+<!--NAVBAR-->
+		 <nav class="navbar navbar-expand-lg fixed-top">
+			  <a class="navbar-brand fluxbrand" href="#">
+				  <img src="images/Flux BrandLogo.png" style="margin-top: 5px;">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<!--			  <span class="navbar-toggler-icon"></span>-->
+				  <i class="fas fa-bars" style="color:white;"></i>
+			  </button>
+
+			  <div class="collapse navbar-collapse fluxnav" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Movies</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">TV Shows</a>
+				  </li>
+				  <li class="nav-item dropdown" style="align-content: center;" >
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Genre
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" style="text-align: center;" href="#">Action</a>
+					  <a class="dropdown-item" style="text-align: center;" href="#">Comedy</a>
+					  <a class="dropdown-item" style="text-align: center;" href="#">Horror</a>
+					  <a class="dropdown-item" style="text-align: center;" href="#">Sci-Fi</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="#"></a>
+					</div>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Kids</a>
+				  </li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0 navsearch">
+				  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			  </div>
+		</nav>
+	  
+<!--1st BLOCK ELEMENT-->
+	  
+		 <div class="container-fluid"> 
+		  <div class="container block1">
+			<div class="row block1row">
+				<div class="col-lg-3">
+					<img src="images/MoneyHeist.jpg" class="monimage">
+				</div>
+				<div class="col-lg-8 offset-1">>
+						<video controls="" width="900px;" height="420px;" muted="" loop="" autoplay="" class="monvideo">
+							<source src="images/Money%20Heist_%20Part%204%20_%20Official%20Trailer%20_%20Netflix(720P_HD).mp4"
+									type="video/mp4">
+						</video>
+						<div class="monshift" style="justify-content: center;">
+							<i class="fa fa-2x fa-play-circle playicon" style="color: white;"></i>
+							<div class="montext">"Money Heist : Part 4"</div>
+							<div class="montext2">
+								The Professor, Benjamin and the others attempt to free Lisboa.<br>
+								Tokyo's anger threatens her faith in the plan.Sierra takes matters<br>
+								into her own hands.
+							</div>
+						</div>
+				</div>	
+			</div>
+			</div>
+		  </div>
+	  
+<!--2nd BLOCK FOR MOVIE CARDS-->
+	  
+	  	<div class="container-fluid cardss" style="background-color: #203345;height: auto;">
+	  		<div class="container cards" style="color: white;font-size: 24px;">
+				<div class="row">| Fan Favourites</div>
+				<div class="row firstrow">
+					
+					<div class="col-lg-3 col-md-4 friends">
+<!--					<img src="images/friends.jpg" class="img-fluid imagesetting">-->
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/friends.jpg" class="img-fluid imagesetting" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							<div class="card-title" style="margin-bottom:20px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;padding-top:0px;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Friends</b><h6 style="margin-left:10px;font-size:12px;display: inline-block;">(1994)</h6>
+								    </div>
+							  </div>
+							  Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-4 strthings">
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/strangerthings.jpg" class="img-fluid imagesetting" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							<div class="card-title" style="margin-bottom: 0px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;padding-top:0px;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Stranger Things</b>
+								    </div>
+							  </div>
+							  <h6 style="margin-left: 50px;font-size:12px;margin-top: 0px;">(2013)</h6>
+							  When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-4 yjhd">
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/Yehjawani.jpg" class="img-fluid imagesetting" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							  <div class="card-title" style="margin-bottom: 0px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Yeh Jaawani Hai 
+										 <div style="">Deewani</div>
+									    </b>
+								    </div>
+							  </div>
+							  <h6 style="margin-left: 50px;font-size:12px;">(2013)</h6>
+							Kabir and Naina bond during a trekking trip. Before Naina can express herself, Kabir leaves India to pursue his career. They meet again years later, but he still cherishes his dreams more than bonds.
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-4 hideme joker">
+<!--					<img src="images/joker.jpg" class="img-fluid imagesetting">-->
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/joker.jpg" class="img-fluid imagesetting" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							<div class="card-title" style="margin-bottom:20px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;padding-top:0px;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Joker</b><h6 style="margin-left:10px;font-size:12px;display: inline-block;">(2020)</h6>
+								    </div>
+							  </div>
+							  In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-lg-0 col-md-4 hiddenmovies showme joker">
+<!--					<img src="images/joker.jpg" class="img-fluid imagesetting">-->
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/joker.jpg" class="img-fluid imagesetting" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							<div class="card-title" style="margin-bottom:20px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;padding-top:0px;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Joker</b><h6 style="margin-left:10px;font-size:12px;display: inline-block;">(2020)</h6>
+								    </div>
+							  </div>
+							  In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-lg-0 col-md-4 hiddenmovies showme birdbox">
+<!--					<img src="images/birdbox.jpg" class="img-fluid imagesetting">-->
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/birdbox.jpg" class="img-fluid imagesetting" style="height: 120px;width:100%;" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							<div class="card-title" style="margin-bottom:20px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;padding-top:0px;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Bird Box</b><h6 style="margin-left:10px;font-size:12px;display: inline-block;">(2019)</h6>
+								    </div>
+							  </div>
+							  Five years after an ominous unseen presence drives most of society to suicide, a mother and her two children make a desperate bid to reach safety.
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-0 col-md-4 hiddenmovies showme ozark" >
+<!--					<img src="images/ozark.jpg" class="img-fluid imagesetting">-->
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/ozark.jpg" class="img-fluid imagesetting" style="height: 120px;width:100%;" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="text-align: center; background-color:#152535;color: white;font-size:16px;">
+							<div class="card-title" style="margin-bottom:20px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;padding-top:0px;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Ozark</b><h6 style="margin-left:10px;font-size:12px;display: inline-block;">(2017)</h6>
+								    </div>
+							  </div>
+							  A financial advisor drags his family from Chicago to the Missouri Ozarks, where he must launder money to appease a drug boss.
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+	  	</div>
+	
+<!--1st ROW OF CARDS ENDS HERE-->
+	  
+<!--2nd ROW OF MOVIE CARDS-->
+	  
+	    <div class="container-fluid cardss" style="background-color: #203345;margin-top:20px; height: auto;">
+	  		<div class="container cards" style="color: white;font-size: 24px;">
+				<div class="row">| Bollywood Binge</div>
+				<div class="row firstrow" style="">
+					<div class="col-lg-3 col-md-4 kabir">
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/kabirsingh.jpg" class="img-fluid imagesetting" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							  <div class="card-title" style="margin-bottom: 0px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Kabir Singh </b>
+								    </div>
+							  </div>
+							  <h6 style="margin-left: 50px;font-size:12px;">(2019)</h6>
+							Kabir Singh is a remake of a Telugu movie Arjun Reddy (2017), where a short-tempered house surgeon gets used to drugs and drinks when his girlfriend is forced to marry another person.
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-4 kapoorsons">
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/kapoor&sons.jpg" class="img-fluid imagesetting" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							<div class="card-title" style="margin-bottom: 0px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;padding-top:0px;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Kapoor & Sons</b>
+								    </div>
+							  </div>
+							  <h6 style="margin-left: 50px;font-size:12px;margin-top: 0px;">(2016)</h6>
+							  A story revolving around a dysfunctional family of 2 brothers who visit their family and discover that their parents marriage is on the verge of collapse,the family is undergoing a financial crunch and much more as the drama unfolds.
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-4 wakeupsid">
+<!--					<img src="images/friends.jpg" class="img-fluid imagesetting">-->
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/wakeupsid.jpg" class="img-fluid imagesetting" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							<div class="card-title" style="margin-bottom:20px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;padding-top:0px;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Wake Up Sid</b><h6 style="margin-left:10px;font-size:12px;display: inline-block;">(2009)</h6>
+								    </div>
+							  </div>
+							 A spoiled young adult living in Mumbai experiences a change in his lazy ways when he meets a woman at a party, who inspires him to "wake up".
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-4 hideme zindagi">
+<!--					<img src="images/joker.jpg" class="img-fluid imagesetting">-->
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/zindagi.jpg" class="img-fluid imagesetting" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						   <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							  <div class="card-title" style="margin-bottom: 0px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Zindagi Naa 
+										 <div style="">Milege Dobara</div>
+									    </b>
+								    </div>
+							  </div>
+							  <h6 style="margin-left: 50px;font-size:12px;">(2011)</h6>
+							Three friends decide to turn their fantasy vacation into reality after one of their friends gets engaged.
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-lg-0 col-md-4 hiddenmovies showme zindagi">
+<!--					<img src="images/joker.jpg" class="img-fluid imagesetting">-->
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/zindagi.jpg" class="img-fluid imagesetting" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							  <div class="card-title" style="margin-bottom: 0px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Zindagi Naa 
+										 <div style="">Milege Dobara</div>
+									    </b>
+								    </div>
+							  </div>
+							  <h6 style="margin-left: 50px;font-size:12px;">(2011)</h6>
+							Three friends decide to turn their fantasy vacation into reality after one of their friends gets engaged.
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-lg-0 col-md-4 hiddenmovies showme soty">
+<!--					<img src="images/birdbox.jpg" class="img-fluid imagesetting">-->
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/soty.jpg" class="img-fluid imagesetting" style="height: 120px;width:100%;" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							  <div class="card-title" style="margin-bottom: 0px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>Student Of 
+										 <div style="">The Year</div>
+									    </b>
+								    </div>
+							  </div>
+							  <h6 style="margin-left: 50px;font-size:12px;">(2012)</h6>
+							Several alumni reminisce about their final year at St. Theresa's College and the events that shaped their lives.
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-0 col-md-4 hiddenmovies showme idiots" >
+<!--					<img src="images/ozark.jpg" class="img-fluid imagesetting">-->
+						<a data-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="collapseExample">
+							<img src="images/3idiots.jpg" class="img-fluid imagesetting" style="height: 120px;width:100%;" >
+  						</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-body" style="background-color:#152535;color: white;font-size:16px;">
+							<div class="card-title" style="margin-bottom:20px;">
+								  <i class="fa fa-2x fa-play-circle" style="color: white;padding-top:0px;"></i>
+								  	<div class="" style="display: inline-block;margin-left: 12px;">
+								  		<b>3 Idiots</b><h6 style="margin-left:10px;font-size:12px;display: inline-block;">(2009)</h6>
+								    </div>
+							  </div>
+							  Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them "idiots".
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+	  	</div>
+<!--2nd BLOCK FOR MOVIE CARDS END HERE	  -->
+	  
+<!--3rd BLOCK FOR LANGUAGE CARDS-->
+	  
+	  
+	    <div class="container-fluid cardss" style="background-color: #203345;margin-top:20px; height: auto;">
+	  		<div class="container cards" style="color: white;font-size: 24px;">
+				<div class="row">| Watch In Your Language</div>
+					<div class="row firstrow" style="margin-top:14px;">
+						<div class="col-lg-2 col-md-3">
+							<img src="images/english.png" style="height:127px;margin-left:12px;">
+						</div>
+						<div class="col-lg-2 col-md-3">
+							<img src="images/hindi.png" style="height:127px;margin-left:10px;">
+						</div>
+						<div class="col-lg-2 col-md-3">
+							<img src="images/marathi.png" style="height:127px;margin-left:14px;">
+						</div>
+						<div class="col-lg-2 col-md-3">
+							<img src="images/telugu.png" style="height:127px;margin-left:14px;">
+						</div>
+						<div class="col-lg-2 col-md-3 hideme">
+							<img src="images/tamil.png" style="height:127px;margin-left:14px;">
+						</div>
+						<div class="col-lg-2 col-md-3 hideme">
+							<img src="images/bengali.png" style="height:127px;margin-left:14px;">
+						</div>
+					</div>
+					<div class="row secondrow" style="margin-top:22px;">
+						<div class="col-md-4 hiddenlang showme">
+							<img src="images/tamil.png" style="height:127px;margin-left:90px;">
+						</div>
+						<div class="col-md-4 hiddenlang showme">
+							<img src="images/bengali.png" style="height:127px;margin-left:44px;">
+						</div>
+						<div class="col-md-4 hiddenlang showme">
+							<img src="images/malayalam.png" style="height:127px;">
+						</div>
+					</div>
+			</div>
+	  	</div>
+	  
+<!--LANGUAGE CARDS ENDS HERE-->
+
+<!--THE BIG IMAGE-->
+	  	
+	  	<div class="container-fluid" style="background-color: #203345;margin-top:10px; height: auto;">
+			<div class="container" style="color: white;font-size: 24px;padding-left:0px;margin-bottom:20px;">| Top Rated</div>
+	  		<div class="container" style="border-radius:12px;;color: white;font-size: 24px;margin-top:14px;background-color:#152535;">
+				<div class="row">
+	  				<div class="col-lg-8 col-12-md">
+					<img src="images/now_u_see_me.jpg" class="nowu">
+					</div>
+					<div class="col-lg-4 col-md-9 expandnow" style="border-left:gold 2px solid;">
+						
+						<i class="fa fa-2x fa-play-circle playicon2"></i>
+						<h3 class="textnow">"Now You See Me 3"</h3>
+						<span class="twentytwenty">(2020)</span>
+						<h5 style="margin-top: 40px;text-align: center;">
+						Lionsgate is stating to put the pieces into place for Now You See Me 3, and they’re hoping to reunite the Four Horsemen for more heist movie thrills and mind-bending trickery.
+						</h5>
+			
+					</div>
+				</div>
+			</div>
+	  </div>
+	  
+<!--THE BIG IMAGE ENDS-->
+	 
+<!--GENRE CARDS-->
+	  
+	  	<div class="container-fluid" style="background-color: #203345;margin-top:13px; height: auto;">
+			<div class="container" style="color: white;font-size: 24px;padding-left:0px;margin-bottom:0px;">| Genre</div>
+	  			<div class="container">	
+					<div class="row" style="color:white;font-size:16px;text-align: center;">
+	  		
+						<div class="col-lg-3 col-md-4">
+								<img src="images/Theperfectdate.jpg" class="img-fluid imagesetting" ><br>
+								Romance
+						</div>
+
+						<div class="col-lg-3 col-md-4">
+								<img src="images/fastfive.jpg" class="img-fluid imagesetting"><br>
+								Action
+						</div>
+
+						<div class="col-lg-3 col-md-4">
+								<img src="images/ritual.jpg" class="img-fluid imagesetting" ><br>
+								Horror
+						</div>
+
+						<div class="col-lg-3 hideme">
+								<img src="images/dictator.jpg" class="img-fluid imagesetting" ><br>
+								Comedy
+						</div>
+					
+					</div>
+				</div>
+	  	</div>
+	  
+<!--SHOW MORE LINE-->
+	  
+	  <div class="container showmore">See More</div>
+
+<!--Ends-->
+	  
+	
+	  <div class="footer">
+	  	
+		<div class="row icons">
+		  <i class="fab fa-2x fa-facebook-f"></i>
+		  <i class="fab fa-2x fa-twitter" style="margin-left:23px;"></i>
+		  <i class="fab fa-2x fa-imdb" style="margin-left:23px;"></i>
+		  <i class="fab fa-2x fa-instagram" style="margin-left:23px;"></i>
+		</div>
+		  
+	  	<div class="about">
+		  About flux
+		  <span style="margin-left:40px;">Career</span>
+		  <span style="margin-left:40px;">FAQ</span>
+		  <span style="margin-left:40px;">Get The App</span>
+		</div>
+		  
+		<div class="about2">
+		  Terms and Policies
+		  <span style="margin-left:30px;">Help</span>
+		  <span style="margin-left:30px;">Send Feedback</span>
+		</div>  
+		  
+		<div class="endlogo">
+			<img src="images/Flux%20BrandLogo.png" style="height:28px;">  
+		</div>
+		  
+		 <div class="row copyright">
+		     &copy;<span style="margin-left:7px;">1999-2020  by  Flux.com.inc</span>
+		 </div>
+		  
+	  </div>
+	  
+	  
+  <!--font awesome CDN-->
+  <script src="https://kit.fontawesome.com/79361d7429.js" crossorigin="anonymous"></script> 
+  <!--  bootstrap CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--My JS file-->
+<script src="flux.js"></script> 
+	  
+</body>
+</html>
